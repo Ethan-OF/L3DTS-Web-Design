@@ -1,0 +1,181 @@
+body {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(45deg, rgb(43, 5, 40) 0%, rgb(30, 81, 92) 100%);
+	padding: 0px;
+	margin: 0px;
+}
+
+/* v Bulk of the Website's content come from this v */
+
+/* v Empty Holder v */
+
+.holder {
+	margin-top: 50px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* v Main holder for all of the website's content v */
+
+.midmain {
+	width: 75%;
+	background-color: rgba(255, 255, 255, 0.205);
+	border-left: 5px black solid;
+	border-right: 5px black solid;
+	align-self: center;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+/* v Sectioning off areas of the website such as photos and text groups v */
+
+.midgroup {
+	width: 100%;
+	border: 1px black solid;
+	display: flex;
+	flex-direction: row;
+}
+
+/* v Group dedicated for photos v */
+
+.imageholder {
+	background-color: black;
+	aspect-ratio: 0.9/1;
+	height: 90%;
+	border: 2px black solid;
+	display: flex;
+	flex-direction: column;
+}
+
+/* v Group dedicated for images v */
+
+.textholder {
+	width: 100%;
+	height: 93%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* v Adjustable template for text, most css is altered in the HTML to allow for easier editing v */
+
+.text {
+	background-color: rgba(0, 0, 0, 0.199);
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: 30px;
+	font-size: 2vw;
+}
+
+/* v Nav Bar Objects v */
+
+/* v Nav Bar v */
+
+.footbar {
+	background-color: rgb(3, 1, 24);
+	width: 100%;
+	height: 5vh;
+	user-select: none;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	margin-top: auto;
+	position: absolute;
+	margin-bottom: -100px;
+	bottom: 0px;
+}
+
+/* v Footer Bar v */
+
+.navbar {
+	background-color: rgb(3, 1, 24);
+	width: 100%;
+	height: 5vh;
+	user-select: none;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 3px black solid;
+	position: absolute;
+	margin-top: -50px;
+}
+
+/* v Halving Navigation bar in to 2 sections v */
+
+.navgroup1 {
+	width: 50%;
+	height: 100%;
+	background-color: rgb(17, 9, 36);
+	order: 0;
+	display: flex;
+}
+
+/* v The icon, this isn't an image, it's instead a block of color due to Stakeholder preference. v */
+
+.ng1icon {
+	aspect-ratio: 1 / 1;
+	height: 100%;
+	background-color: rgb(21, 123, 179);
+	order: 0;
+}
+
+/* v Text group for the navigation bar v */
+
+.ng1text {
+	margin-left: 1vw;
+	aspect-ratio: 5 / 1;
+	height: 100%;
+	color: white;
+	order: 1;
+	display: flex;
+	flex-direction: column;
+	padding-top: 0.3%;
+	font-size: 30px;
+	font-size: 1vw;
+}
+
+/* v Latter group of the Navigation Bar, presently used for the Button to the other page. v */
+
+.navgroup2 {
+	width: 50%;
+	height: 100%;
+	background-color: rgb(20, 11, 43);
+	order: 1;
+	display: flex;
+	flex-flow: row-reverse;
+}
+
+/* v Base button to link to the other page v */
+
+.ng2button {
+	aspect-ratio: 5 / 1;
+	height: 100%;
+	background-color: rgb(20, 11, 43);
+	color: white;
+	border: 2px white solid;
+	border-radius: 10px;
+	order: 1;
+	font-size: 30px;
+	font-size: 1vw;
+}
+
+/* v Changes the button color if being hovered on, works for indicating if it's able to be clicked v */
+
+.ng2button:hover {
+	background-color: rgba(255, 255, 255, 0.301);
+}
+
+/* v Text group for navigation bar v */
+
+.ng2text {
+	aspect-ratio: 5 / 1;
+	height: 100%;
+	margin-left: 1vw;
+	background-color: rgb(155, 117, 226);
+	order: 1;
+}
