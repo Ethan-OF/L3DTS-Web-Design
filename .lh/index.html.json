@@ -1,0 +1,34 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1692828718014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692829006327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     </head>\r\n     <body>\r\n         <div class=\"navigation\">\r\n             <div class=\"navgroup\">test</div>\r\n+            <div class=\"navgroup\">test</div>\r\n         </div>\r\n         \r\n \r\n         <!--[if lt IE 7]>\r\n"
+                },
+                {
+                    "date": 1692829304724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,12 @@\n     </head>\r\n     <body>\r\n         <div class=\"navigation\">\r\n             <div class=\"navgroup\">test</div>\r\n-            <div class=\"navgroup\">test</div>\r\n+            <div class=\"navgroup\">\r\n+                <div class=\"navgroup\">test</div>\r\n+                <div class=\"navgroup\">test</div>\r\n+            </div>\r\n         </div>\r\n         \r\n \r\n         <!--[if lt IE 7]>\r\n"
+                },
+                {
+                    "date": 1692829311268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,12 @@\n     <body>\r\n         <div class=\"navigation\">\r\n             <div class=\"navgroup\">test</div>\r\n             <div class=\"navgroup\">\r\n+                <div class=\"navgroup\">\r\n+                    <div class=\"navgroup\">test</div>\r\n+                </div>\r\n                 <div class=\"navgroup\">test</div>\r\n-                <div class=\"navgroup\">test</div>\r\n             </div>\r\n         </div>\r\n         \r\n \r\n"
+                },
+                {
+                    "date": 1692829322507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,12 @@\n             <div class=\"navgroup\">test</div>\r\n             <div class=\"navgroup\">\r\n                 <div class=\"navgroup\">\r\n                     <div class=\"navgroup\">test</div>\r\n+                    <div class=\"navgroup\">\r\n+                        <div class=\"navgroup\">test</div>\r\n+                        <div class=\"navgroup\">test</div>\r\n+                    </div>\r\n                 </div>\r\n                 <div class=\"navgroup\">test</div>\r\n             </div>\r\n         </div>\r\n"
+                }
+            ],
+            "date": 1692828718014,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\r\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\r\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\r\n<!--[if gt IE 8]>      <html class=\"no-js\"> <!--<![endif]-->\r\n<html>\r\n    <head>\r\n        <meta charset=\"utf-8\">\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n        <title></title>\r\n        <meta name=\"description\" content=\"\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n        <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n    </head>\r\n    <body>\r\n        <div class=\"navigation\">\r\n            <div class=\"navgroup\">test</div>\r\n        </div>\r\n        \r\n\r\n        <!--[if lt IE 7]>\r\n            <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>\r\n        <![endif]-->\r\n        \r\n        <script src=\"\" async defer></script>\r\n    </body>\r\n</html>"
+        }
+    ]
+}

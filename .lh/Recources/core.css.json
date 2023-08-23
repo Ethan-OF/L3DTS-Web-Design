@@ -1,0 +1,38 @@
+{
+    "sourceFile": "Recources/core.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1692828466250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692828472261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n body {\r\n     background-color: black;\r\n     color: white;\r\n-    padding-left: 0px;\r\n+    padding: 0px;\r\n     margin: 0px;\r\n   }\r\n \r\n .navigation {\r\n"
+                },
+                {
+                    "date": 1692828487456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   display: flex;\r\n   align-items: left;\r\n \r\n   background-color: grey;\r\n-  height: 100vh;\r\n+  height: 10vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n   border: 0px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692828496302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   display: flex;\r\n   align-items: left;\r\n \r\n   background-color: grey;\r\n-  height: 10vh;\r\n+  height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n   border: 0px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692828551840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,7 @@\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n   border: 0px;\r\n+\r\n+  display: flex;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692828700434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,13 @@\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n   border: 0px;\r\n+}\r\n \r\n-  display: flex;\r\n+.navgroup {\r\n+  width: 50%;\r\n+\theight: 100%;\r\n+\tbackground-color: rgb(17, 9, 36);\r\n+\torder: 0;\r\n+\tdisplay: flex;\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1692828466249,
+            "name": "Commit-0",
+            "content": "body {\r\n    background-color: black;\r\n    color: white;\r\n    padding-left: 0px;\r\n    margin: 0px;\r\n  }\r\n\r\n.navigation {\r\n  display: flex;\r\n  align-items: left;\r\n\r\n  background-color: grey;\r\n  height: 100vh;\r\n  width: 100%;\r\n  padding-left: 0px;\r\n  border: 0px;\r\n}"
+        }
+    ]
+}
