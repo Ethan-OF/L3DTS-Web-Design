@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 25,
+            "activePatchIndex": 33,
             "patches": [
                 {
                     "date": 1692828718014,
@@ -108,6 +108,38 @@
                 {
                     "date": 1693788971931,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n     </head>\r\n     <body>\r\n         <div class=\"backgroupGroup\">\r\n-            <img csrc=\"Recources/Images/download.jpg\">\r\n+            <img class=\"i\" src=\"Recources/Images/download.jpg\">\r\n         </div>\r\n \r\n         <div class=\"mainGroup\">\r\n             <div class=\"navigation\">\r\n"
+                },
+                {
+                    "date": 1693789435221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,11 +13,11 @@\n         <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n     </head>\r\n     <body>\r\n         <div class=\"backgroupGroup\">\r\n-            <img class=\"i\" src=\"Recources/Images/download.jpg\">\r\n-        </div>\r\n+            <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n \r\n+\r\n         <div class=\"mainGroup\">\r\n             <div class=\"navigation\">\r\n                 <div class=\"navgroup\">test</div>\r\n                 <div class=\"navgroup\">test</div>\r\n"
+                },
+                {
+                    "date": 1693789442980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,12 +12,10 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n         <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n     </head>\r\n     <body>\r\n-        <div class=\"backgroupGroup\">\r\n-            <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n+            \r\n \r\n-\r\n         <div class=\"mainGroup\">\r\n             <div class=\"navigation\">\r\n                 <div class=\"navgroup\">test</div>\r\n                 <div class=\"navgroup\">test</div>\r\n"
+                },
+                {
+                    "date": 1693789448395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,16 +12,15 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n         <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n     </head>\r\n     <body>\r\n-            \r\n-\r\n         <div class=\"mainGroup\">\r\n             <div class=\"navigation\">\r\n                 <div class=\"navgroup\">test</div>\r\n                 <div class=\"navgroup\">test</div>\r\n             </div>\r\n     \r\n+            <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n             <div class=\"space\"></div>\r\n             <div class=\"bottomText\"></div>\r\n         </div>\r\n \r\n"
+                },
+                {
+                    "date": 1693789454843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,10 @@\n                 <div class=\"navgroup\">test</div>\r\n             </div>\r\n     \r\n             <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n-            <div class=\"space\"></div>\r\n+\r\n+\r\n             <div class=\"bottomText\"></div>\r\n         </div>\r\n \r\n         <!--[if lt IE 7]>\r\n"
+                },
+                {
+                    "date": 1693789460100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,13 +19,11 @@\n                 <div class=\"navgroup\">test</div>\r\n             </div>\r\n     \r\n             <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n+            <div class=\"bottomText\"></div>\r\n \r\n \r\n-            <div class=\"bottomText\"></div>\r\n-        </div>\r\n-\r\n         <!--[if lt IE 7]>\r\n             <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>\r\n         <![endif]-->\r\n         \r\n"
+                },
+                {
+                    "date": 1693789465236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,17 +12,15 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n         <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n     </head>\r\n     <body>\r\n-        <div class=\"mainGroup\">\r\n-            <div class=\"navigation\">\r\n-                <div class=\"navgroup\">test</div>\r\n-                <div class=\"navgroup\">test</div>\r\n-            </div>\r\n-    \r\n-            <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n-            <div class=\"bottomText\"></div>\r\n+        <div class=\"navigation\">\r\n+            <div class=\"navgroup\">test</div>\r\n+            <div class=\"navgroup\">test</div>\r\n+        </div>\r\n \r\n+        <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n+        <div class=\"bottomText\"></div>\r\n \r\n         <!--[if lt IE 7]>\r\n             <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>\r\n         <![endif]-->\r\n"
+                },
+                {
+                    "date": 1693789470359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+<!DOCTYPE html>\r\n+<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\r\n+<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\r\n+<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\r\n+<!--[if gt IE 8]>      <html class=\"no-js\"> <!--<![endif]-->\r\n+<html>\r\n+    <head>\r\n+        <meta charset=\"utf-8\">\r\n+        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+        <title></title>\r\n+        <meta name=\"description\" content=\"\">\r\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n+        <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n+    </head>\r\n+    <body>\r\n+        <div class=\"navigation\">\r\n+            <div class=\"navgroup\">test</div>\r\n+            <div class=\"navgroup\">test</div>\r\n+        </div>\r\n+\r\n+        <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n+        <div class=\"\"\r\n+        <div class=\"bottomText\"></div>\r\n+\r\n+        <!--[if lt IE 7]>\r\n+            <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>\r\n+        <![endif]-->\r\n+        \r\n+        <script src=\"\" async defer></script>\r\n+    </body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693789480444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+<!DOCTYPE html>\r\n+<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\r\n+<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\r\n+<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\r\n+<!--[if gt IE 8]>      <html class=\"no-js\"> <!--<![endif]-->\r\n+<html>\r\n+    <head>\r\n+        <meta charset=\"utf-8\">\r\n+        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+        <title></title>\r\n+        <meta name=\"description\" content=\"\">\r\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n+        <link rel=\"stylesheet\" href=\"./Recources/core.css\">\r\n+    </head>\r\n+    <body>\r\n+        <div class=\"navigation\">\r\n+            <div class=\"navgroup\">test</div>\r\n+            <div class=\"navgroup\">test</div>\r\n+        </div>\r\n+\r\n+        <img class=\"test\" src=\"Recources/Images/download.jpg\">\r\n+\r\n+        <div class=\"bottomText\"></div>\r\n+\r\n+        <!--[if lt IE 7]>\r\n+            <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>\r\n+        <![endif]-->\r\n+        \r\n+        <script src=\"\" async defer></script>\r\n+    </body>\r\n+</html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1692828718014,
