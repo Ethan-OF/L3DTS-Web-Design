@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 47,
+            "activePatchIndex": 93,
             "patches": [
                 {
                     "date": 1692828466250,
@@ -196,6 +196,190 @@
                 {
                     "date": 1693183755482,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: red;\r\n+  background-color: bred;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184130833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n   display: flex;\r\n }\r\n \r\n .image {\r\n-  background-color: red;\r\n+  background-color: rgb(109, 74, 74);\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184136232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: bred;\r\n+  background-color: red;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -59,9 +59,9 @@\n   display: flex;\r\n }\r\n \r\n .image {\r\n-  background-color: rgb(109, 74, 74);\r\n+  background-color: rgb(255, 0, 0);\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184141871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n   display: flex;\r\n }\r\n \r\n .image {\r\n-  background-color: rgb(255, 0, 0);\r\n+  background-color: red;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184149166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: red;\r\n+  background-color: rgb(48, 20, 20);\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184155025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: rgb(48, 20, 20);\r\n+  background-color: rgb(255, 255, 255);\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184160486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: rgb(255, 255, 255);\r\n+  background-color: rgb(173, 171, 171);\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184165844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,70 @@\n+body {\r\n+    background-color: black;\r\n+    color: white;\r\n+    padding: 0px;\r\n+    margin: 0px;\r\n+  }\r\n+\r\n+.backgroupGroup {\r\n+  background-color: rgb(126, 98, 98);\r\n+  width: 100%;\r\n+  height: 100%;\r\n+  display: unset;\r\n+  z-index: 0;\r\n+\r\n+  position: fixed;\r\n+}\r\n+\r\n+.mainGroup {\r\n+  \r\n+  width: 100%;\r\n+  height: 100%;\r\n+  z-index: 1;\r\n+\r\n+  position: fixed;\r\n+}\r\n+\r\n+.navigation {\r\n+  display: flex;\r\n+  align-items: left;\r\n+\r\n+  background-color: grey;\r\n+  height: 5vh;\r\n+  width: 100%;\r\n+  padding-left: 0px;\r\n+  border: 0px;\r\n+}\r\n+\r\n+.navgroup {\r\n+  width: 50%;\r\n+\theight: 100%;\r\n+\tbackground-color: rgb(17, 9, 36);\r\n+\torder: 0;\r\n+\tdisplay: flex;\r\n+}\r\n+\r\n+.space {\r\n+  top: 5vh;\r\n+  background-color: transparent;\r\n+  height: 50vh;\r\n+  width: 100vh;\r\n+  display: flex;\r\n+}\r\n+\r\n+.bottomText {\r\n+  background: rgb(144,144,144);\r\n+  background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n+  height: 45vh;\r\n+\r\n+  display: flex;\r\n+}\r\n+\r\n+.image {\r\n+  background-color: red;\r\n+  width: 100%;\r\n+  height: 100%;\r\n+  display: unset;\r\n+  z-index: 0;\r\n+\r\n+  position: relative;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693184171310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: rgb(126, 98, 98);\r\n+  background-color: rgb(131, 78, 78);\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -66,75 +66,5 @@\n   display: unset;\r\n   z-index: 0;\r\n \r\n   position: relative;\r\n-}\n-body {\r\n-    background-color: black;\r\n-    color: white;\r\n-    padding: 0px;\r\n-    margin: 0px;\r\n-  }\r\n-\r\n-.backgroupGroup {\r\n-  background-color: rgb(173, 171, 171);\r\n-  width: 100%;\r\n-  height: 100%;\r\n-  display: unset;\r\n-  z-index: 0;\r\n-\r\n-  position: fixed;\r\n-}\r\n-\r\n-.mainGroup {\r\n-  \r\n-  width: 100%;\r\n-  height: 100%;\r\n-  z-index: 1;\r\n-\r\n-  position: fixed;\r\n-}\r\n-\r\n-.navigation {\r\n-  display: flex;\r\n-  align-items: left;\r\n-\r\n-  background-color: grey;\r\n-  height: 5vh;\r\n-  width: 100%;\r\n-  padding-left: 0px;\r\n-  border: 0px;\r\n-}\r\n-\r\n-.navgroup {\r\n-  width: 50%;\r\n-\theight: 100%;\r\n-\tbackground-color: rgb(17, 9, 36);\r\n-\torder: 0;\r\n-\tdisplay: flex;\r\n-}\r\n-\r\n-.space {\r\n-  top: 5vh;\r\n-  background-color: transparent;\r\n-  height: 50vh;\r\n-  width: 100vh;\r\n-  display: flex;\r\n-}\r\n-\r\n-.bottomText {\r\n-  background: rgb(144,144,144);\r\n-  background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n-  height: 45vh;\r\n-\r\n-  display: flex;\r\n-}\r\n-\r\n-.image {\r\n-  background-color: red;\r\n-  width: 100%;\r\n-  height: 100%;\r\n-  display: unset;\r\n-  z-index: 0;\r\n-\r\n-  position: relative;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693184177794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: rgb(131, 78, 78);\r\n+  background-color: rgb(0, 0, 0);\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184186018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: rgb(0, 0, 0);\r\n+  background-color: w;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184186051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: w;\r\n+  background-color: wh;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184202851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: wh;\r\n+  background-color: white;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border: 0px;\r\n+  border: 0px\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184209106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border: 0px\r\n+  border-bottom:\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184220327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom:\r\n+  border-bottom: 10px solid ;\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184230123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: white;\r\n+  background-color: b;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 10px solid ;\r\n+  border-bottom: 10px solid white;\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184235573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: b;\r\n+  background-color: black;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 10px solid white;\r\n+  border-bottom: 10px solid rgb(148, 92, 92);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184240664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 10px solid rgb(148, 92, 92);\r\n+  border-bottom: 10px solid rgb(47, 44, 88);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184246834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 10px solid rgb(47, 44, 88);\r\n+  border-bottom: 10px solid rgb(45, 44, 53);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184254639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 10px solid rgb(45, 44, 53);\r\n+  border-bottom: 10px solid rgb(7, 6, 22);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184267862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 10px solid rgb(7, 6, 22);\r\n+  border-bottom: 1px solid rgb(4, 3, 12);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184276957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: black;\r\n+  background-color: w;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693184282679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: w;\r\n+  background-color: white;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 1px solid rgb(4, 3, 12);\r\n+  border-bottom: 1px solid rgb(110, 109, 121);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184299938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 1px solid rgb(110, 109, 121);\r\n+  border-bottom: 10px solid rgb(110, 109, 121);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693184306480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 10px solid rgb(110, 109, 121);\r\n+  border-bottom: 00px solid rgb(110, 109, 121);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n"
+                },
+                {
+                    "date": 1693788902621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-color: grey;\r\n   height: 5vh;\r\n   width: 100%;\r\n   padding-left: 0px;\r\n-  border-bottom: 00px solid rgb(110, 109, 121);\r\n+  border-bottom: 1px solid rgb(110, 109, 121);\r\n }\r\n \r\n .navgroup {\r\n   width: 50%;\r\n@@ -58,9 +58,9 @@\n \r\n   display: flex;\r\n }\r\n \r\n-.image {\r\n+i {\r\n   background-color: red;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n"
+                },
+                {
+                    "date": 1693788910333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n \r\n   display: flex;\r\n }\r\n \r\n-i {\r\n+img: {\r\n   background-color: red;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n"
+                },
+                {
+                    "date": 1693788919725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,10 +58,9 @@\n \r\n   display: flex;\r\n }\r\n \r\n-img: {\r\n-  background-color: red;\r\n+img test {\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693788936273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n \r\n   display: flex;\r\n }\r\n \r\n-img test {\r\n+imgtest {\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693788997242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,11 +58,10 @@\n \r\n   display: flex;\r\n }\r\n \r\n-imgtest {\r\n-  width: 100%;\r\n-  height: 100%;\r\n+img.test {\r\n+\r\n   display: unset;\r\n   z-index: 0;\r\n \r\n   position: relative;\r\n"
+                },
+                {
+                    "date": 1693789003258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,10 +59,11 @@\n   display: flex;\r\n }\r\n \r\n img.test {\r\n-\r\n   display: unset;\r\n   z-index: 0;\r\n \r\n+  \r\n+\r\n   position: relative;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693789008833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,8 @@\n img.test {\r\n   display: unset;\r\n   z-index: 0;\r\n \r\n-  \r\n+  height:\r\n \r\n   position: relative;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693789021753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,8 @@\n img.test {\r\n   display: unset;\r\n   z-index: 0;\r\n \r\n-  height:\r\n+  padding-top: 5v\r\n \r\n   position: relative;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693789032949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,9 @@\n img.test {\r\n   display: unset;\r\n   z-index: 0;\r\n \r\n-  padding-top: 5v\r\n+  padding-top: 5vh;\r\n+  \r\n \r\n   position: relative;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693789099823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: white;\r\n+  background-color: b;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -63,8 +63,8 @@\n   display: unset;\r\n   z-index: 0;\r\n \r\n   padding-top: 5vh;\r\n-  \r\n+  width: 100%;\r\n \r\n   position: relative;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693789116236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: b;\r\n+  background-color: black;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -51,9 +51,9 @@\n   display: flex;\r\n }\r\n \r\n .bottomText {\r\n-  background: rgb(144,144,144);\r\n+  background: rgb(117, 44, 44);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n   display: flex;\r\n"
+                },
+                {
+                    "date": 1693789123035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n   display: flex;\r\n }\r\n \r\n .bottomText {\r\n-  background: rgb(117, 44, 44);\r\n+  background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n   display: flex;\r\n"
+                },
+                {
+                    "date": 1693789128402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: black;\r\n+  background-color: b;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n"
+                },
+                {
+                    "date": 1693789152668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     margin: 0px;\r\n   }\r\n \r\n .backgroupGroup {\r\n-  background-color: b;\r\n+  background-color: black;\r\n   width: 100%;\r\n   height: 100%;\r\n   display: unset;\r\n   z-index: 0;\r\n@@ -53,9 +53,9 @@\n \r\n .bottomText {\r\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n-  height: 45vh;\r\n+  height: 45v;\r\n \r\n   display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693789218465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,10 @@\n \r\n .bottomText {\r\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n-  height: 45v;\r\n+  height: 45vh;\r\n+  \r\n \r\n   display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693789235249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,10 +54,11 @@\n .bottomText {\r\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n-  \r\n \r\n+  padding-top: 1\r\n+\r\n   display: flex;\r\n }\r\n \r\n img.test {\r\n"
+                },
+                {
+                    "date": 1693789241424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n-  padding-top: 1\r\n+  padding-top: 00vw\r\n \r\n   display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693789248362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n-  padding-top: 00vw\r\n+  padding-top: 200vw;\r\n \r\n   display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693789254170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n-  padding-top: 200vw;\r\n+  padding-top: 00vw;\r\n \r\n   display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693789260200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n-  padding-top: 00vw;\r\n+  padding-top: 10vw;\r\n \r\n   display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693789265420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n-  padding-top: 10vw;\r\n+  padding-top: vw;\r\n \r\n   display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693789274894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,10 +55,10 @@\n   background: rgb(144,144,144);\r\n   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);\r\n   height: 45vh;\r\n \r\n-  padding-top: vw;\r\n \r\n+\r\n   display: flex;\r\n }\r\n \r\n img.test {\r\n"
                 }
             ],
             "date": 1692828466249,
