@@ -1,4 +1,4 @@
-html { 
+.background { 
   background: url(Images/download.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,7 +39,7 @@ body {
   height: 5vh;
   width: 100%;
   padding-left: 0px;
-  border-bottom: 1px solid rgb(110, 109, 121);
+  border-bottom: 0.2vh solid rgb(110, 109, 121);
 
   font-size: 2vw;
   line-height: 5vh;
@@ -68,6 +68,10 @@ body {
   padding-right: 5px;
 
   font-size: 2vw;
+
+  color: white;
+
+  user-select: none;
 }
 
 .selected {
@@ -94,13 +98,13 @@ body {
 .bottomText {
   background: rgb(144,144,144);
   background: linear-gradient(0deg, rgba(144,144,144,1) 0%, rgba(170,170,170,1) 83%, rgba(255,255,255,0) 100%);
-  height:44.84708vh;
+  height:39.787vh;
 
   display: flex;
   flex-direction: column;
   width: 100%;
 
-  font-size: 1.3vw;
+  font-size: 3vw;
 
   word-break:break-all;
 }
@@ -118,4 +122,32 @@ img.test {
   width: 100%;
 
   display: flex;
+}
+
+.footer {
+  display: flex;
+  align-items: left;
+
+  background-color: grey;
+  height: 5vh;
+  width: 100%;
+  padding-left: 0px;
+  border-bottom: 1px solid rgb(110, 109, 121);
+
+  font-size: 2vw;
+  line-height: 5vh;
+}
+
+/*Page space to hold everything in pages other than the home page */
+
+.pagespace {
+  height: 89.8vh;
+}
+
+.slidearea {
+
+}
+
+.slideshow {
+  
 }
