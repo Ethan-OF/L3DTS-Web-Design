@@ -1,6 +1,7 @@
 //Initial Veriables
 let slideIndex = 0;
 const slideshowContainer = document.getElementById('slideshow');
+var interval;
 
 //Function to load the images into the website through a json file.
 function loadImages() {
@@ -22,6 +23,20 @@ function loadImages() {
                 //To prevent visual issues, hide every image except for the first one in the list
                 i++;
                 if (i == images.length) img.style.display = 'none';
+                
+                img.addEventListener('click', () => {
+                    //Grab the images
+                    const slides = document.getElementsByClassName('slideimage');
+
+                    changeImg(slides)
+                    clearInterval(interval)
+                    
+                    //Start loop
+                    interval = setInterval(() => {
+                        //Call to change image shown
+                        changeImg(slides);
+                    }, 5000); //Loop of 10 seconds
+                });
 
                 //Add file to the HTML (Under the slideshow div element)
                 slideshowContainer.appendChild(img);
@@ -32,19 +47,13 @@ function loadImages() {
         .catch(error => console.error('ERROR:', error, "CHECK JS, CSS, AND HTML"));
 
     //Start looping through slides
-    slides();
-}
-
-// Function to start the slideshow
-function slides() {
-    //Grab the images
     const slides = document.getElementsByClassName('slideimage');
 
     //Start loop
-    setInterval(() => {
+    interval = setInterval(() => {
         //Call to change image shown
         changeImg(slides);
-    }, 10000); //Loop of 10 seconds
+    }, 5000); //Loop of 10 seconds
 }
 
 // Function to change the image

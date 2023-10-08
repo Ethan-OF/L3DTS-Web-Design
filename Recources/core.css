@@ -1,5 +1,5 @@
 .background { 
-  background: url(Images/download.jpg) no-repeat center center fixed; 
+  background: url(Images/DSCN0034.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -174,4 +174,13 @@ img.test {
 .slideimage {
   width: 100%;
   height: auto;
+}
+
+/* About page items */
+
+.aboutcenter {
+  width: 80vw;
+  height: 89.8vh;
+  
+  background-color: red;
 }
