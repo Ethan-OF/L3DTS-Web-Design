@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Gallery</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./Recources/core.css">
@@ -17,13 +17,13 @@
             <div class="navgroup">
                 <div class="navbuttonspace"></div>
                 
-                <a href="index.html">
+                <a href="index.php">
                     <div class="navbutton">HOME</div>
                 </a>
 
                 <div class="navbutton selected">GALLERY</div>
 
-                <a href="about.html">
+                <a href="about.php">
                     <div class="navbutton">ABOUT</div>
                 </a>
             </div>
@@ -45,17 +45,23 @@
 
         <div class="navigation">
 
-            <div class="navgroup">
-                <p style="align-self: center; margin-left: 10px; font-size: clamp(16px, 2vw, 24px);">Sign up to my newsletters! ➜</p>
-            </div>
+                <div class="navgroup">
+                    <p style="align-self: center; margin-left: 10px; font-size: clamp(16px, 2vw, 24px);">Sign up to my newsletters! ➜</p>
+                </div>
 
-            <div class="navgroup" style="align-items: right; justify-content: right; display: flex;">
-                Email:
-                <input class="emailinput" type="text" id="name" name="name" style="margin-left: 10px;">
-                
-                <div class="navbutton" style="margin-left: 10px; margin-right: 10px; text-decoration: underline;">Submit</div>
+                <!--CHANGED FOOTER-->
+                <div class="navgroup" style="align-items: right; justify-content: right; display: flex;">
+                    <?php if(isset($_GET['message'])) {
+                        echo "<span style='margin-right: 32px;'>Insert Successful</span>";
+                    }
+                    else { ?>
+                    <form action="Recources/newsletter.php" method="post" style="display: flex; align-items: center;">
+                        Email: <input type="text" name="email" id="email" style="margin-left: 10px; height: 50%;">
+                        <input type="submit" value="Submit" class="navbutton" style="margin-left: 10px; margin-right: 10px; text-decoration: underline;">
+                    </form>
+                    <?php }?>
+                </div>
             </div>
-        </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->

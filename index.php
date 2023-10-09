@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Home</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./Recources/core.css">
@@ -20,11 +20,11 @@
                     
                     <div class="navbutton selected">HOME</div>
     
-                    <a href="gallery.html">
+                    <a href="gallery.php">
                         <div class="navbutton">GALLERY</div>
                     </a>
                     
-                    <a href="about.html">
+                    <a href="about.php">
                         <div class="navbutton">ABOUT</div>
                     </a>
                 </div>
@@ -59,13 +59,18 @@
                 <div class="navgroup">
                     <p style="align-self: center; margin-left: 10px; font-size: clamp(16px, 2vw, 24px);">Sign up to my newsletters! ➜</p>
                 </div>
-    
-                <div class="navgroup" style="align-items: right; justify-content: right; display: flex;">
 
+                <!--CHANGED FOOTER-->
+                <div class="navgroup" style="align-items: right; justify-content: right; display: flex;">
+                    <?php if(isset($_GET['message'])) {
+                        echo "<span style='margin-right: 32px;'>Insert Successful</span>";
+                    }
+                    else { ?>
                     <form action="Recources/newsletter.php" method="post" style="display: flex; align-items: center;">
-                        Email: <input type="text" name="email" style="margin-left: 10px; height: 50%;">
+                        Email: <input type="text" name="email" id="email" style="margin-left: 10px; height: 50%;">
                         <input type="submit" value="Submit" class="navbutton" style="margin-left: 10px; margin-right: 10px; text-decoration: underline;">
                     </form>
+                    <?php }?>
                 </div>
             </div>
             <!--[if lt IE 7]>
