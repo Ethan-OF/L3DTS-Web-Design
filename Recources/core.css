@@ -188,5 +188,28 @@ img.test {
   width: 80vw;
   height: 89.8vh;
 
-  background-color: red;
+  background-color: rgb(54, 54, 59);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutsplit {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+
+.aboutimage {
+  width: 90%;
+  aspect-ratio: 11/9;
+
+  background-color: rgb(9, 8, 17);
+  border: 3px solid black;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
 }
