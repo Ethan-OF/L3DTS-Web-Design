@@ -138,6 +138,11 @@ img.test {
   line-height: 5vh;
 }
 
+.emailinput {
+  height: 50%;
+  align-self: center;
+}
+
 /*Page space to hold everything in pages other than the home page */
 
 .pagespace {
@@ -181,6 +186,6 @@ img.test {
 .aboutcenter {
   width: 80vw;
   height: 89.8vh;
-  
+
   background-color: red;
 }
