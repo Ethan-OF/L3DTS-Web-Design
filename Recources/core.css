@@ -105,7 +105,7 @@ body {
   flex-direction: column;
   width: 100%;
 
-  font-size: clamp(16px, 2.1vw, 20px);
+  font-size: clamp(15px, 2.1vw, 21px);
 
   word-break:break-all;
 }
