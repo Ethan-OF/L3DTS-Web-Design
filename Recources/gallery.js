@@ -21,8 +21,8 @@ function loadImages() {
                 img.alt = image.description;
                 
                 //To prevent visual issues, hide every image except for the first one in the list
+                if (i > 0) img.style.display = 'none';
                 i++;
-                if (i == images.length) img.style.display = 'none';
                 
                 img.addEventListener('click', () => {
                     //Grab the images

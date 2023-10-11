@@ -3,6 +3,7 @@
 function loadImages() {
     //Initial Veriables
     const slideshowContainer = document.getElementsByClassName('aboutimage');
+    let imgDone = -1;
 
     for (let i = 0; i < slideshowContainer.length; i++) {
         const element = slideshowContainer[i];
@@ -11,7 +12,15 @@ function loadImages() {
         fetch('Recources/images.json')
         .then(response => response.json())
         .then(images => {
+            //Choose a random image, and make sure it hasn't been chosen before
             let rand = between(0, images.length);
+
+            while(rand == imgDone)
+            {
+              rand = between(0, images.length);
+            }
+
+            imgDone = rand;
 
             //This will loop through each image, and add itself to the HTML
             const img = document.createElement('img');

@@ -35,7 +35,9 @@ body {
   display: flex;
   align-items: left;
 
-  background-color: grey;
+  background: url('noise.svg');
+  background-color: rgb(17, 9, 36);
+
   height: 5vh;
   width: 100%;
   padding-left: 0px;
@@ -48,7 +50,7 @@ body {
 .navgroup {
   width: 50%;
 	height: 100%;
-	background-color: rgb(17, 9, 36);
+
 	order: 0;
 	display: flex;
 }
@@ -188,6 +190,7 @@ img.test {
   width: 80vw;
   height: 89.8vh;
 
+  background: url('noise.svg');
   background-color: rgb(54, 54, 59);
 
   display: flex;
@@ -199,10 +202,13 @@ img.test {
   height: 100%;
 
   display: flex;
+  justify-content: left;
+
+  font-size: clamp(16px, 2vw, 24px);
 }
 
 .aboutimage {
-  width: 90%;
+  width: 60%;
   aspect-ratio: 11/9;
 
   background-color: rgb(9, 8, 17);
@@ -212,4 +218,10 @@ img.test {
 
   display: flex;
   align-items: center;
+}
+
+.backing
+{
+  background: url('noise.svg');
+  background-color: rgb(202, 202, 202);
 }
