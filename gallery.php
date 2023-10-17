@@ -11,11 +11,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./Recources/core.css">
+        <link rel="icon" href="./Recources/Images/Logo.png">
     </head>
     <body class="backing">
         <div class="navigation">
             <div class="navgroup">
-                <div class="navbuttonspace"></div>
+                <div class="navbuttonspace">
+                    <img src="Recources/Images/Logo.png" style="height: 100%;">
+                </div>
                 
                 <a href="index.php">
                     <div class="navbutton">HOME</div>

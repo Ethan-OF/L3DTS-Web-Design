@@ -11,12 +11,15 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./Recources/core.css">
+        <link rel="icon" href="./Recources/Images/Logo.png">
     </head>
     <div class="background">
         <body>
             <div class="navigation">
                 <div class="navgroup">
-                    <div class="navbuttonspace"></div>
+                    <div class="navbuttonspace">
+                        <img src="Recources/Images/Logo.png" style="height: 100%;">
+                    </div>
                     
                     <div class="navbutton selected">HOME</div>
     
@@ -67,7 +70,7 @@
                     }
                     else { ?>
                     <form action="Recources/newsletter.php" method="post" style="display: flex; align-items: center;">
-                        Email: <input type="text" name="email" id="email" style="margin-left: 10px; height: 50%;">
+                        Email: <input type="email" name="email" id="email" style="margin-left: 10px; height: 50%;">
                         <input type="submit" value="Submit" class="navbutton" style="margin-left: 10px; margin-right: 10px; text-decoration: underline;">
                     </form>
                     <?php }?>

@@ -11,11 +11,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./Recources/core.css">
+        <link rel="icon" href="./Recources/Images/Logo.png">
     </head>
     <body class="backing">
         <div class="navigation">
             <div class="navgroup">
-                <div class="navbuttonspace"></div>
+                <div class="navbuttonspace">
+                    <img src="Recources/Images/Logo.png" style="height: 100%; user-select: none;">
+                </div>
 
                 <a href="index.php">
                     <div class="navbutton">HOME</div>
@@ -48,37 +51,42 @@
 
                     <div class="aboutsplit" style="margin-right: 10px">
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Duis
-                        at tellus at urna condimentum mattis. Cursus
-                        risus at ultrices mi tempus imperdiet nulla. Ac
-                        odio tempor orci dapibus ultrices in iaculis. Sit
-                        amet consectetur adipiscing elit. Purus semper
-                        eget duis at. Dolor morbi non arcu risus quis
-                        varius quam quisque. A lacus vestibulum sed
-                        arcu non odio euismod. Nulla aliquet enim tortor
-                        at auctor urna. Est lorem ipsum dolor sit amet
-                        consectetur adipiscing elit.
+                        The photos shown on this website are all
+                        taken by me using my Nikon Coolpix A900.
+                        For a few years now I've decided to try
+                        out photography, something that's always
+                        peaked my interest as a hobby. Initially,
+                        this website was going to show my paintings,
+                        instead I've decided to host my photos here
+                        as I find them more visually interesting.
+                        Some time I may decide to upload some of
+                        my paintings to be displayed. All photos
+                        are taken by myself, no credits will
+                        be given, as they are all my own.
                         </p>
                     </div>
                 </div>
 
                 <div class="aboutsplit" style="flex-direction: row; height: 50%;">
-                    <div class="aboutsplit" style="margin-left: 10px">
+                    <div class="aboutsplit" style="display: flex; margin-left: 10px; flex-direction: column;">
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Duis
-                        at tellus at urna condimentum mattis. Cursus
-                        risus at ultrices mi tempus imperdiet nulla. Ac
-                        odio tempor orci dapibus ultrices in iaculis. Sit
-                        amet consectetur adipiscing elit. Purus semper
-                        eget duis at. Dolor morbi non arcu risus quis
-                        varius quam quisque. A lacus vestibulum sed
-                        arcu non odio euismod. Nulla aliquet enim tortor
-                        at auctor urna. Est lorem ipsum dolor sit amet
-                        consectetur adipiscing elit.
+                        A while back I decided to invest in
+                        a camera, looking through TradeMe
+                        for something that would fit my
+                        needs. Luckily for me, someone decided
+                        to give away one of their cameras for
+                        a low price, with a camera valued over
+                        $800 NZD, going for $200 NZD. Following
+                        this I decided to try out the camera
+                        mainly taking photos of the sky.
+                        </p>
+                        
+                        <p>
+                            By signing up for my newsletter, you
+                            will be able to recieve emails every
+                            time I post something new. With future
+                            updates to the website being mentioned,
+                            future photos, plans, cameras, etc.
                         </p>
                     </div>
 
